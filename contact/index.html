@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SPF - Contact</title>
+    <link rel="icon" href="../images/feuille-icone.svg">
+    <link rel="stylesheet" href="/css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="flex flex-col justify-center">
+    <header class="fixed top-0 z-50 justify-between bg-site-green w-screen font-poppins ">
+        <div class="px-5 max-lg:px-2 py-3 flex w-full items-center text-white">
+            <a class="text-3xl font-bold font-heading" href="/">
+                <img class="h-12" src="../images/Logo-SPF-final-blanc.png" alt="logo">
+            </a>
+            <ul class="uppercase flex px-4 mx-auto font-poppins text-left space-x-2 max-lg:text-xs max-xl:text-sm">
+                <li><a class="font-poppins py-4 px-4 rounded-md hover:no-underline hover:text-green-200 text-left"
+                        href="/individual">Services Particuliers</a></li>
+                <li><a class="font-poppins py-4 px-4 rounded-md hover:no-underline hover:text-green-200"
+                        href="/pro">Services Viticulture</a></li>
+                <li><a class="font-poppins py-4 px-4 rounded-md hover:no-underline hover:text-green-200 max-md:hidden"
+                        href="/achievements">Nos
+                        Réalisations</a></li>
+                <li><a class="font-poppins py-4 px-4 rounded-md hover:no-underline hover:text-green-200 max-lg:hidden"
+                        href="/whoami">Qui
+                        sommes nous ?</a></li>
+                <li><a class="font-poppins py-4 px-4 rounded-md hover:no-underline hover:bg-purple-950 hover:opacity-80"
+                        href="/contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <div class="flex relative flex-col object-center justify-items-center min-h-svh">
+        <main
+            class=" flex flex-col items-center justify-center object-center font-poppins text-site-green w-full grow">
+            
+
+<div class="max-w-2xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden my-24 w-full lg:w-8/12">
+    <div class="font-poppins text-2xl py-4 px-6 bg-site-green text-white text-center font-bold uppercase">
+        Prise de Contact / Devis
+    </div>
+    <form class="py-4 px-6" action="https://formsubmit.co/krazybug@gmail.com" method="POST">
+    
+        <input type="hidden" name="_next" value="http://localhost:8081/thanks/index.html">
+        <input type="hidden" name="_subject" value="Votre prise de contact">
+        <input type="hidden" name="_template" value="box">
+        <input type="hidden" name="_captcha" value="false">
+
+        <div class="mb-4">
+            <label class="block font-poppins text-site-green font-bold mb-2" for="name">
+                Nom
+            </label>
+            <input
+                class="shadow appearance-none border rounded w-full py-2 px-3 font-poppins text-site-green leading-tight focus:outline-none focus:shadow-outline"
+                id="name" type="text" placeholder="Saisissez votre nom" name="Nom">
+        </div>
+        <div class="mb-4">
+            <label class="block font-poppins text-site-green font-bold mb-2" for="name" >
+                Prénom
+            </label>
+            <input
+                class="shadow appearance-none border rounded w-full py-2 px-3 font-poppins text-site-green leading-tight focus:outline-none focus:shadow-outline"
+                id="name" type="text" placeholder="Saisissez votre prénom" name="Prenom">
+        </div>
+        <div class="mb-4">
+            <label class="block font-poppins text-site-green font-bold mb-2" for="email">
+                Email
+            </label>
+            <input
+                class="shadow appearance-none border rounded w-full py-2 px-3 font-poppins text-site-green leading-tight focus:outline-none focus:shadow-outline"
+                id="email" type="email" placeholder="Saisissez votre email" name="email">
+        </div>
+        <div class="mb-4">
+            <label class="block font-poppins text-site-green font-bold mb-2" for="phone">
+                Numéro de Téléphone
+            </label>
+            <input
+                class="shadow appearance-none border rounded w-full py-2 px-3 font-poppins text-site-green leading-tight focus:outline-none focus:shadow-outline"
+                id="phone" type="tel" placeholder="Saisissez votre numéro de téléphone" name="tel">
+        </div>
+        <div class="mb-4">
+            <label class="block font-poppins text-site-green font-bold mb-2" for="service">
+                Service
+            </label>
+            <select
+                class="shadow appearance-none border rounded w-full py-2 px-3 font-poppins text-site-green leading-tight focus:outline-none focus:shadow-outline"
+                id="service" name="service">
+                <option value="">Type de service</option>
+                <option value="individual">Particulier</option>
+                <option value="pro">Pro Viticulture</option>
+            </select>
+        </div>
+        <div class="mb-4">
+            <label class="block font-poppins text-site-green font-bold mb-2" for="message">
+                Message
+            </label>
+            <textarea
+                class="shadow appearance-none border rounded w-full py-2 px-3 font-poppins text-site-green leading-tight focus:outline-none focus:shadow-outline"
+                id="message" rows="4" placeholder="Quel est l'objet de votre demande ? devis, ..." name="description"></textarea>
+        </div>
+        <div class="mb-4">
+            <button
+                class="bg-site-green opacity-80 text-white py-2 px-4 rounded hover:bg-purple-950 hover:opacity-80 focus:outline-none focus:shadow-outline"
+                type="submit">
+                Envoyer
+            </button>
+        </div>
+    </form>
+</div>
+        </main>
+
+        <footer
+            class="flex grow-0 flex-row max-lg:flex-col max-lg:space-y-5 bg-site-green font-poppins py-3 text-white w-9/12 items-center text-center self-center justify-between max-md:w-full">
+
+                <div class="w-1/4 ml-4 max-lg:order-last max-lg:mt-6">
+                    <ul class="grid grid-cols-1 text-sm text-start space-y-3 my-2">
+                        <li class="flex flex-row">
+                            <img class=" size-5 " src="../images/tel-icon.svg" alt="logo">
+                            <div class="px-2">06 03 91 75 89</div>
+                        </li>
+                        <li class="flex flex-row">
+                            <img class="size-5" src="../images/mail-icon.svg" alt="logo">
+                            <div class="px-2">servicespaysagesdufrontonnais<br class="2xl:hidden">@gmail.com</div>
+                        </li>
+                        <li class="flex flex-row">
+                            <img class="size-5" src="../images/www-icon.svg" alt="logo">
+                            <div class="px-2">www.services-paysages-​frontonnais.fr</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-1/2 flex flex-col justify-center">
+                    <img class="h-12 max-w-none object-scale-down max-h-full m-auto"
+                        src="../images/Logo-SPF-final-blanc.png" alt="logo">
+                    <p class="text-2xl">Services et Paysages <br>​ du Frontonnais</p>
+                </div>
+                <div class="w-1/4 max-xl:mr-4 max-lg:hidden">
+                    <p class="py-3 font-extrabold">EI Laude Nathan</p>
+                    <p class="text-[12px]">1391 route de Castelnau</p>
+                    <p class="text-[14px]">31620, Villeneuve les Bouloc</p>
+                    <p class="text-[12px] py-2">R.C.S. Toulouse 931 097 430 00017</p>
+                </div>
+        </footer>
+    </div>
+</body>
